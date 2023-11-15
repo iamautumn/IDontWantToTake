@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I Don't Want to Take Photos On My Mobile Phones</title>
+    <title>I Don't Want To Take Photos On My Mobile Phones</title>
     <link rel="icon" type="image/x-icon" href="assets/photo-camera.png">
     <link rel="stylesheet" href="assets/customlay.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -16,6 +16,9 @@
         <div id="app">
             <!--Mobile Nav Bar-->
             <div id="navmobile"></div>
+            <!--Back to Top button-->
+            <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-angle-double-up"
+                aria-hidden="true"></i></button>
             <!-- Content section-->
             <section class="main-content columns is-fullheight">
                 <!-- Computer Sidebar-->
@@ -53,10 +56,13 @@
                 <!--End of Home-->
             </section>
         </div>
-        <div id="footer"></div>
+        <footer class="footer is-size-7">
+            <div id="footer"></div>
+        </footer>
     </container>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
 <script src="https://kit.fontawesome.com/96d3b659ea.js" crossorigin="anonymous"></script>
 <script src="assets/customscript.js"></script>
 
